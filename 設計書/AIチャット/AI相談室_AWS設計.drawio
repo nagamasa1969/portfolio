@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
+  <diagram name="ページ1" id="u9ZvQvNRAPd7wkCTRzxC">
+    <mxGraphModel dx="988" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="620" width="320" x="240" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-2" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" value="Amazon S3" vertex="1">
+          <mxGeometry height="100" width="80" x="358" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-3" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" value="" vertex="1">
+          <mxGeometry height="78" width="78" x="360" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-4" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.ecr;" value="Amazon ECR" vertex="1">
+          <mxGeometry height="100" width="80" x="358" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-6" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" target="ZJSwaEHb3T9H5QXzNvx4-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="397.5" y="198" as="sourcePoint" />
+            <mxPoint x="350" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-7" edge="1" parent="1" source="ZJSwaEHb3T9H5QXzNvx4-9" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" target="ZJSwaEHb3T9H5QXzNvx4-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-9" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.lambda;" value="AWS Lambda" vertex="1">
+          <mxGeometry height="100" width="80" x="358" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-10" edge="1" parent="1" source="ZJSwaEHb3T9H5QXzNvx4-9" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" target="ZJSwaEHb3T9H5QXzNvx4-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="520" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="イメージコンテナをデプロイ" vertex="1">
+          <mxGeometry height="60" width="210" x="420" y="554.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="フロントエンドの管理" vertex="1">
+          <mxGeometry height="60" width="210" x="480" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJSwaEHb3T9H5QXzNvx4-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="バックエンドの管理" vertex="1">
+          <mxGeometry height="60" width="210" x="480" y="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
